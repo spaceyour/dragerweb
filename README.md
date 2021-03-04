@@ -10,16 +10,17 @@ A drag and drop site built using Jquery and Blockly technologies
 
 ------------
 #### File Architecture
-| [config.js] (https://github.com/spaceyour/dragerweb/blob/main/config.js) | The part where there are Javascript blocks |
+|[config.js](https://github.com/spaceyour/dragerweb/blob/main/config.js)|The part where there are Javascript blocks   |
 | ------------ | ------------ |
-| [script.js] (https://github.com/spaceyour/dragerweb/blob/main/script.js) | Part of adding html css views |
-| [index.html] (https://github.com/spaceyour/dragerweb/blob/main/index.html) | Home directory |
+| [script.js](https://github.com/spaceyour/dragerweb/blob/main/script.js)| Part of adding html css views |
+|[index.html](https://github.com/spaceyour/dragerweb/blob/main/index.html)|Home directory    |
+
 
 ------------
 > * I will continue to improve the site * 
 > 
 
-##TR
+## TR
  
  # Drager WEB
 
