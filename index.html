@@ -1,0 +1,452 @@
+  
+
+
+
+<!-- Config Editor -->
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+    <category name="Koşullar" colour="%{BKY_LOGIC_HUE}">
+      <block type="controls_if"></block>
+      <block type="logic_compare"></block>
+      <block type="logic_operation"></block>
+      <block type="logic_negate"></block>
+      <block type="logic_boolean"></block>
+    </category>
+    <category name="Olaylar" colour="red">
+     <block type="click"></block>
+         
+    </category>
+  
+   <category name="Etkileşim" colour="purple">
+     <block type="text"></block>
+          <block type="alert"></block>
+               <block type="style"></block>
+             <block type="open"></block>
+    </category>
+  
+   <category name="Math" colour="#5b67a5">
+    <block type="math_number">
+      <field name="NUM">0</field>
+    </block>
+    <block type="math_arithmetic">
+      <field name="OP">ADD</field>
+      <value name="A">
+        <shadow type="math_number">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+      <value name="B">
+        <shadow type="math_number">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="math_single">
+      <field name="OP">ROOT</field>
+      <value name="NUM">
+        <shadow type="math_number">
+          <field name="NUM">9</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="math_trig">
+      <field name="OP">SIN</field>
+      <value name="NUM">
+        <shadow type="math_number">
+          <field name="NUM">45</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="math_constant">
+      <field name="CONSTANT">PI</field>
+    </block>
+    <block type="math_number_property">
+      <mutation divisor_input="false"></mutation>
+      <field name="PROPERTY">EVEN</field>
+      <value name="NUMBER_TO_CHECK">
+        <shadow type="math_number">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="math_round">
+      <field name="OP">ROUND</field>
+      <value name="NUM">
+        <shadow type="math_number">
+          <field name="NUM">3.1</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="math_on_list">
+      <mutation op="SUM"></mutation>
+      <field name="OP">SUM</field>
+    </block>
+    <block type="math_modulo">
+      <value name="DIVIDEND">
+        <shadow type="math_number">
+          <field name="NUM">64</field>
+        </shadow>
+      </value>
+      <value name="DIVISOR">
+        <shadow type="math_number">
+          <field name="NUM">10</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="math_constrain">
+      <value name="VALUE">
+        <shadow type="math_number">
+          <field name="NUM">50</field>
+        </shadow>
+      </value>
+      <value name="LOW">
+        <shadow type="math_number">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+      <value name="HIGH">
+        <shadow type="math_number">
+          <field name="NUM">100</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="math_random_int">
+      <value name="FROM">
+        <shadow type="math_number">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number">
+          <field name="NUM">100</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="math_random_float"></block>
+  </category>
+  
+  
+  
+  
+  
+
+  
+  
+  
+  </xml>
+
+
+<!-- Proje için yüklenmesi gerekli kütüphaneler -->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="script.js"></script>
+
+  <script src="compressed.js"></script>
+<!-- Proje bloklarının yapısı -->
+  <script src="blocks.js"></script>
+  <script src="js_compressed.js"></script>
+  <script src="en.js"></script>
+<!-- important -->  
+<script src="config.js"></script>
+<link rel="stylesheet" href="style.css"/>
+
+
+
+
+
+
+
+
+
+
+
+<div id="ios8" class="row">
+  <div id="iqn2" class="cell">
+  </div>
+  <div id="idjs" class="cell">
+    <div id="ikgg">DRAGER WEB
+      <br/>
+    </div>
+  </div>
+</div>
+<div id="i8h2h" class="row">
+  <div id="alan" class="cell">
+  </div>
+  <div id="ijm4g" class="cell">
+    <div data-tabs="1" id="i5rew">
+      <nav data-tab-container="1" id="ibfn7" class="tab-container">
+        <a href="#ikloi" data-tab="1" id="ib9v7" class="tab">Öğe</a>
+        <a href="#ikrr6" data-tab="1" id="iwsic" class="tab">Css</a>
+        <a href="#kod" data-tab="1" id="iq4tq" class="tab">Javascript</a>
+      </nav>
+      <div data-tab-content="1" id="ikloi" class="tab-content">
+        <div id="ijz67" class="row">
+          <div id="ik0yv" class="cell boxes">
+            <div id="yazi" class="text1">TEXT
+            </div>
+          </div>
+          <div id="iwpiu" class="cell boxes">
+            <div id="image" class="text1">İMAGE
+            </div>
+          </div>
+        </div>
+        <div id="i9yd4" class="row">
+          <div id="inbbx" class="cell boxes">
+            <div id="video" class="text1">Video
+            </div>
+          </div>
+          <div id="ijzpl" class="cell boxes">
+            <div id="inp_text" class="text1">İNPUT(text)
+            </div>
+          </div>
+        </div>
+        <div id="i408c" class="row">
+          <div id="i35xc" class="cell boxes">
+            <div id="button" class="text1">Button
+            </div>
+          </div>
+          <div id="ivoe6" class="cell boxes">
+            <div id="i31vp" class="text1">(X)Slider
+              <br/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-tab-content="1" id="ikrr6" class="tab-content">
+        <details id="io6xl">
+          <summary id="iwvx5">Tasarım
+          </summary>
+          
+          <div>
+            <center>
+              <h2>İd(Js İşlevleri için gereklidir)
+              </h2>
+            </center>
+            <input type="text" oninput="ekle('id',this.value)" class="slid" id="id"/>
+          </div>
+          
+          
+          <div>
+            <center>
+              <h2>Width
+              </h2>
+            </center>
+            <input type="range" oninput="ekle('width',this.value)" max="2000" min="0" class="slid"/>
+          </div>
+          <div>
+            <center>
+              <h2>Height
+              </h2>
+            </center>
+            <input type="range" oninput="ekle('height',this.value)" max="2000" min="0" class="slid"/>
+          </div>
+          <div>
+            <center>
+              <h2>Font-Size
+              </h2>
+            </center>
+            <input type="range" oninput="ekle('size',this.value)" max="2000" min="0" value="0" class="slid"/>
+          </div>
+          <div>
+            <center>
+              <h2>Color
+              </h2>
+            </center>
+            <input type="color" oninput="ekle('color',this.value)"/>
+          </div>
+          <div>
+            <center>
+              <h2>Background
+              </h2>
+            </center>
+            <input type="color" oninput="ekle('background',this.value)"/>
+          </div>
+        </details>
+        <details id="ietzt">
+          <summary id="iztrh">Konum
+          </summary>
+          <div>
+            <center>
+              <h2>Position
+              </h2>
+            </center>
+            Left:
+            <input type="range" oninput="ekle('Pleft',this.value)" max="2000" min="-100" value="0" class="slid"/>
+            Top:     
+            <input type="range" oninput="ekle('Ptop',this.value)" max="2000" min="-100" value="0" class="slid"/>
+            Bottom
+            <input type="range" oninput="ekle('Pbottom',this.value)" max="2000" min="-100" value="0" class="slid"/>              
+            Right      
+            <input type="range" oninput="ekle('Pright',this.value)" max="2000" min="-100" value="0" class="slid"/>
+          </div>
+          <hr/>
+          <div>
+            <center>
+              <h2>Padding
+              </h2>
+            </center>
+            Left:
+            <input type="range" oninput="ekle('left',this.value)" max="2000" min="0" value="0" class="slid"/>
+            Top:     
+            <input type="range" oninput="ekle('top',this.value)" max="2000" min="0" value="0" class="slid"/>
+            Bottom
+            <input type="range" oninput="ekle('bottom',this.value)" max="2000" min="0" value="0" class="slid"/>              
+            Right      
+            <input type="range" oninput="ekle('right',this.value)" max="2000" min="0" value="0" class="slid"/>
+          </div>
+        </details>
+      </div>
+      <div data-tab-content="1" id="kod" class="tab-content" >
+                         <div id="öge">
+                          
+        </div>                                                       
+      </div>
+    </div>
+   
+  </div>
+</div>
+
+   
+
+
+
+<button id="run" onclick="runner()" >Çalıştır</button>
+<blockquote class="quote">Uyarı-1:Çalıştır işlevi javascript kodlarını çalıştırmak veya kodu export almak isterseniz size yardımcı olur
+  <br/>
+</blockquote> 
+<blockquote class="quote" >Uyarı-2:Alan kısmında görülen kod web sitesinde FARKLI gözükür bu yüzden sık sık çalıştır işlevini kullanın
+  <br/>
+</blockquote>
+
+<blockquote class="quote" >Uyarı-3:Çalıştır işlevinde üretilen kod  ham kod değildir bu yüzden kodu ordan export etmek mantıklı değildir ancak test için kullanılabilir
+  <br/>
+</blockquote>
+<blockquote class="quote">Uyarı-4:Javascript işlevi henüz tamamlanmadı bu yüzden bazen hata çıkarıp açılmayabilir  ve eklenmesi muhtemel bloklar (X) içerisinde gösterilir
+  <br/>
+</blockquote>
+<div class="row" id="inh3lg">
+  <div class="cell" id="ilmv4p">
+  </div>
+  <div class="cell">
+    <div id="iooqu3">Spaceyour tarafından geliştirilmişdir
+      <br/>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+
+  
+  var demoWorkspace="";
+  
+     demoWorkspace = Blockly.inject('öge',
+        {
+         toolbox: document.getElementById('toolbox')});
+
+  
+  
+  var items = document.querySelectorAll('#i5rew');
+  for (var i = 0, len = items.length; i < len; i++) {
+    (function(){
+        //Toolbox
+
+      var t,e=this,a="[data-tab]",n=document.body,r=n.matchesSelector||n.webkitMatchesSelector||n.mozMatchesSelector||n.msMatchesSelector,o=function(){
+        var a=e.querySelectorAll("[data-tab-content]")||[];
+        for(t=0;t<a.length;t++)a[t].style.display="none"}
+      ,i=function(n){
+        var r=e.querySelectorAll(a)||[];
+        for(t=0;t<r.length;t++){
+          var i=r[t],s=i.className.replace("tab-active","").trim();
+          i.className=s}
+        o(),n.className+=" tab-active";
+        var l=n.getAttribute("href"),c=e.querySelector(l);
+        c&&(c.style.display="")}
+      ,s=e.querySelector(".tab-active"+a);
+      s=s||e.querySelector(a),s&&i(s),e.addEventListener("click",function(t){
+        var e=t.target;
+        r.call(e,a)&&i(e)}
+                                                         
+                                                        )}
+     .bind(items[i]))();
+  }
+  
+
+  
+  
+
+  
+</script>
+
+
+
+
+
+
+<script>
+  //Tıklama olaylarını dinleme kısmı
+  function edit(tag){
+var text=prompt("Ne yazacaksınız?");
+    if(text!==null){
+      tag.innerHTML=text;
+      
+      
+    }
+
+  
+}
+    
+    function img_edit(tag){
+  var url=prompt("Url..."); 
+  if(url!==null){
+    tag.setAttribute("src",url); 
+  
+  }
+    }
+  function video_edit(tag){
+  var url=prompt("Url..."); 
+    if(url!==null){
+      
+       tag.children[0].childNodes[1].src=url;
+      
+    }
+ 
+    
+
+    }
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+  <script src="run.js"></script>
+<script>
+
+
+  function runner(){
+  
+  var js=Blockly.JavaScript.workspaceToCode(demoWorkspace);
+  
+  
+  run(js);
+  
+
+
+  
+}
+
+  
+  
+  
+  
+
+</script>

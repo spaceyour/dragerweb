@@ -1,0 +1,258 @@
+.seç{
+  border:4px solid blue;
+  
+  
+}
+
+
+#alan>*{
+  
+  position:relative;
+  
+}
+.slid {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slid:hover {
+  opacity: 1;
+}
+
+.slid::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slid::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+  
+  
+  
+  
+  * {
+  box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+  }
+  *{
+    box-sizing:border-box;
+
+}
+  body{
+    margin:0;
+  }
+  .row{
+    display:flex;
+    justify-content:flex-start;
+    align-items:stretch;
+    flex-wrap:nowrap;
+    padding:10px;
+  }
+  .cell{
+    min-height:75px;
+    flex-grow:1;
+    flex-basis:100%;
+  }
+  .tab{
+    text-decoration:none;
+    color:inherit;
+    padding:7px 14px;
+    transition:opacity 0.3s;
+    display:inline-block;
+    border-radius:3px;
+    margin-right:10px;
+    font-size:35px;
+  }
+  .tab.tab-active{
+    background-color:#0d94e6;
+    color:white;
+  }
+  .tab-content{
+    padding:6px 12px;
+    min-height:100px;
+    animation:fadeEffect 1s;
+    width:100%;
+    height:90%;
+    border:8px solid #ff7777;
+  }
+  .text1{
+    padding:10px;
+    color:#ffffff;
+    font-size:39px;
+    font-family:Brush Script MT, sans-serif;
+    font-weight:800;
+    margin:25px 0 0 36px;
+  }
+  .boxes{
+    background-image:linear-gradient(#562b2b,#562b2b);
+    background-repeat:repeat;
+    background-position:left top;
+    background-attachment:scroll;
+    background-size:auto;
+    margin:5px 5px 5px 5px;
+    flex-basis:50%;
+    max-width:179px;
+  }
+  #iqn2{
+    flex-basis:55.2%;
+  }
+  #ikgg{
+    padding:10px;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-weight:800;
+    font-size:41px;
+    color:#fffbfb;
+  }
+  #ios8{
+    background-image:linear-gradient(#bd0000,#bd0000);
+    background-repeat:repeat;
+    background-position:left top;
+    background-attachment:scroll;
+    background-size:auto;
+  }
+  #alan{
+    margin:-3px 0 0 -7px;
+    width:100%;
+    height:542px;
+    border:8px solid #af2d2d;
+    overflow:auto;
+  }
+  #id5qk{
+    flex-basis:147.6%;
+  }
+  #ijz67{
+    height:135px;
+  }
+  #ik0yv{
+    margin:5px 5px 5px 87px;
+    flex-basis:58%;
+  }
+  #iwpiu{
+    max-width:227px;
+  }
+  #button{
+    font-size:30px;
+  }
+  #i35xc{
+    margin:5px 5px 5px 87px;
+    flex-basis:58%;
+  }
+  #ivoe6{
+    max-width:227px;
+  }
+  #i408c{
+    height:135px;
+  }
+  #inbbx{
+    margin:5px 5px 5px 87px;
+    flex-basis:58%;
+  }
+  #inp_text{
+    font-size:26px;
+  }
+  #ijzpl{
+    max-width:227px;
+  }
+  #i9yd4{
+    height:135px;
+  }
+  @keyframes fadeEffect{
+    from{
+      opacity:0;
+    }
+    to{
+      opacity:1;
+    }
+  }
+
+
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 100%;
+	height: 32px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+
+  .quote{
+    color:#777;
+    font-weight:300;
+    padding:10px;
+    box-shadow:-5px 0 0 0 #ccc;
+    font-style:italic;
+    margin:20px 30px;
+  }
+  #ikrr6{
+    overflow:auto;
+    height:486px;
+  }
+  #io6xl{
+    margin-bottom:20px;
+  }
+  #iwvx5{
+    width:100%;
+    height:65px;
+    background:linear-gradient(#bd0000,#bd0000);
+    color:white;
+    font-size:45px;
+  }
+  #ietzt{
+    margin-bottom:20px;
+  }
+  #iztrh{
+    width:100%;
+    height:65px;
+    background:linear-gradient(#bd0000,#bd0000);
+    color:white;
+    font-size:45px;
+  }
+  #run{
+    width:100%;
+    height:54px;
+    background-image:linear-gradient(#c13030,#c13030);
+    background-repeat:repeat;
+    background-position:left top;
+    background-attachment:scroll;
+    background-size:auto;
+    color:#f8f4f4;
+    font-size:29.3333px;
+    font-family:Brush Script MT, sans-serif;
+    font-weight:700;
+  }
+  #inh3lg{
+    background-image:linear-gradient(#792929,#792929);
+    background-repeat:repeat;
+    background-position:left top;
+    background-attachment:scroll;
+    background-size:auto;
+  }
+  #ilmv4p{
+    flex-basis:59.4%;
+  }
+  #iooqu3{
+    padding:20px 10px 10px 10px;
+    color:#f3ebeb;
+    font-size:26px;
+  }
