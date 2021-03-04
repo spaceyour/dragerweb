@@ -6,10 +6,10 @@ Jquery ve Blockly teknolojilerini kullanrak yapılmış bir sürükle bırak sit
 
 ------------
 
-###Projeyi katkıda bulunabilmesi için  herkesle paylaşıyorum sizde yeni bloklar ekleyip görünümü değiştirebilirsiniz
+### Projeyi katkıda bulunabilmesi için  herkesle paylaşıyorum sizde yeni bloklar ekleyip görünümü değiştirebilirsiniz
 
 ------------
-####Dosya Mimarisi
+#### Dosya Mimarisi
 |[config.js](https://www.youtube.com/ "config.js")|Javascript bloklarını olduğu kısım  |
 | ------------ | ------------ |
 | [script.js](https://www.youtube.com/http:// "script.js")| Html css görünümlerini ekleme kısmı|
