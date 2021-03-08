@@ -17,8 +17,7 @@ A drag and drop site built using Jquery and Blockly technologies
 
 
 ------------
-> * I will continue to improve the site * 
-> 
+> *I will continue to improve the site*
 
 ## TR
  
